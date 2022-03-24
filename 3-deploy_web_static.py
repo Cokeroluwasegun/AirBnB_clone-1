@@ -7,8 +7,8 @@ from os import path
 
 
 fabric.operations.env.user = 'ubuntu'
-fabric.operations.env.hosts = ['35.237.127.243', '54.90.102.32']
-env.key_filename = "~/.ssh/holberton"
+fabric.operations.env.hosts = ['34.138.112.255', '3.238.112.185']
+env.key_filename = "~/.ssh/school"
 
 
 def do_pack():
