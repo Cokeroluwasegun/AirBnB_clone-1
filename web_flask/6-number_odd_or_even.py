@@ -32,7 +32,6 @@ def number(n):
     if type(n) is int:
         return str(n) + ' is a number'
 
-
 @app.route('/number_template/<int:n>')
 def number_template(n):
     if type(n) is int:
@@ -50,4 +49,4 @@ def number_odd_or_even(n):
 
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000)    
